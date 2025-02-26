@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparación de Mapas</title>
+
+    <!-- Estilo de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <!-- Tu propio estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Contenedor principal para los mapas -->
+    <div id="map-container">
+        <div id="map1" class="map"></div>  <!-- Mapa 1 (OpenStreetMap) -->
+        <div id="map2" class="map"></div>  <!-- Mapa 2 (Otra capa base) -->
+        
+        <!-- Barra deslizante vertical -->
+        <div id="slider" class="slider"></div>
+    </div>
+
+    <!-- Script de JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="program.js"></script>
+
+</body>
+</html>
